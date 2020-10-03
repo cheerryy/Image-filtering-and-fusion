@@ -21,9 +21,9 @@
 - 将3个.m文件及大小相同的图片放入matlab的路径中
 - 运行project1.m文件
 
-##### 3 工作原理
+##### 4 工作原理
 
-###### 3.1 滤波器
+###### 4.1 滤波器
 
 这一步骤的目的是去除图像中大于或小于某一频率的分量，可以使用matlab中的fspecial函数，实现对图像高频、低频分量的提取。
 该函数当设置类型为'gaussian'时可作为高斯低通滤波器，得到图像中频率低于某个阈值的部分。
@@ -43,7 +43,7 @@ $h = fspecial(type,parameters,sigma)$
 
 
 
-###### 3.2 滤波
+###### 4.2 滤波
 
 滤波的表达式如下所示：
 
@@ -55,7 +55,7 @@ $h = fspecial(type,parameters,sigma)$
 
 ![image](https://github.com/cheerryy/Image-filtering-and-fusion/blob/main/ImagesForREADME/11.png)
 
-##### 4 实验结果
+##### 5 实验结果
 
 将爱因斯坦的低频部分与梦露的高频部分融合，结果如下：
 
