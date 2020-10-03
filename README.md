@@ -1,6 +1,6 @@
 # Image-filtering-and-fusion
 
-详细内容可见word文件
+更多细节内容可见pdf文档（eg 探究变量对结果的影响）
 
 ##### 1 实验目的
 
